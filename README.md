@@ -7,7 +7,7 @@ Checkpoint TP for different stages
 
 ### Common Scripts
 
-Hydroxide (DETECTABLE)
+Hydroxide (DETECTABLE BUT EXTREMELY USEFUL)
 
 SimpleSpy
 
