@@ -2,11 +2,38 @@ _G.ToggleColor = Color3.fromRGB(255,0,0)
 _G.ButtonColor = Color3.fromRGB(0,255,0)
 _G.SliderColor = Color3.fromRGB(0,0,255)
 
-local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Codersrules/dqrks-c/main/guiLibrary.lua?token=GHSAT0AAAAAABVLC4UKB4QRBVA4KJNMO7CKYU64WHA')))()
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Codersrules/dqrks-c/main/guiLibrary.lua')))()
 
 local w = library:CreateWindow("Dqrk's Exploits") -- Creates the window
 
 local b = w:CreateFolder("Master's Diff Chart") -- Creates the folder(U will put here your buttons,etc)
+
+local US = w:CreateFolder("Useful Scripts")
+
+US:Label("Hacking Scripts",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+}) 
+
+US:Button("HYDROXIDE RSPY (D)",function()
+    local owner = "Upbolt"
+    local branch = "revision"
+
+    local function webImport(file)
+        return loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/Hydroxide/%s/%s.lua"):format(owner, branch, file)), file .. '.lua')()
+    end
+
+    webImport("init")
+    webImport("ui/main")
+end)
+
+US:Button("SimpleSpy",function()
+    loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
+end)
+
+US:DestroyGui()
 
 local obby = nil
 b:Label("Checkpoint Hack",{
