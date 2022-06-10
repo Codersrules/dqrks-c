@@ -43,7 +43,7 @@ US:Toggle("Zoom out",function(bool)
         game.Players.LocalPlayer.CameraMode = Enum.CameraMode.Classic
     end
     
-    if bool == true
+    if bool == true then
         _G.off = true
     else
         _G.off = false
