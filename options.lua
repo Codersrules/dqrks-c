@@ -3,12 +3,14 @@ _G.ButtonColor = Color3.fromRGB(0,255,0)
 _G.SliderColor = Color3.fromRGB(0,0,255)
 
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Codersrules/dqrks-c/main/guiLibrary.lua')))()
+game.Players.LocalPlayer.CameraMaxZoomDistance = 150
+game.Players.LocalPlayer.CameraMode = Enum.CameraMode.Classic
 
 local w = library:CreateWindow("Dqrk's Exploits") -- Creates the window
 
 local b = w:CreateFolder("Master's Diff Chart") -- Creates the folder(U will put here your buttons,etc)
 
-local US = w:CreateFolder("Useful Scripts")
+local US = w:CreateFolder("Useful Tools")
 
 US:Label("Hacking Scripts",{
     TextSize = 25; -- Self Explaining
@@ -27,6 +29,10 @@ US:Button("HYDROXIDE RSPY (D)",function()
 
     webImport("init")
     webImport("ui/main")
+end)
+
+US:Button("SimpleSpy",function()
+    loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
 end)
 
 US:Button("SimpleSpy",function()
