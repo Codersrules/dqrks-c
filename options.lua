@@ -35,7 +35,7 @@ US:Button("SimpleSpy",function()
     loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
 end)
 
-US:Toggle("Zoom out",function(bool)
+--[[US:Toggle("Zoom out",function(bool)
     _G.off = false
     while _G.off == true
         wait(0.2)
@@ -48,7 +48,7 @@ US:Toggle("Zoom out",function(bool)
     else
         _G.off = false
     end
-end)
+end)]]
 
 US:DestroyGui()
 
