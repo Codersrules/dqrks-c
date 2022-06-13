@@ -44,6 +44,10 @@ US:Button("SimpleSpy",function()
     loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
 end)
 
+US:Button("OwlHub",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
 US:Toggle("Zoom out",function(bool)
     _G.off = false
     while _G.off == true do
