@@ -10,31 +10,24 @@ local w = library:CreateWindow("Dqrk's Exploits") -- Creates the window
 
 local b = w:CreateFolder("Master's Diff Chart") -- Creates the folder(U will put here your buttons,etc)
 
-local DS = w:CreateFolder("Doomspire") -- Creates the folder(U will put here your buttons,etc)
-
-local BW = w:CreateFolder("Bedwars") -- Creates the folder(U will put here your buttons,etc)
+local BG = w:CreateFolder("Basic Games")
 
 local US = w:CreateFolder("Useful Tools")
+loadstring(game:HttpGet(‘https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub’))()
+local BG = w:CreateFolder("Basic Games")
 
-BW:Label("Bedwars VAPEv4",{
+BG:Label("Very basic game scripts",{
     TextSize = 25; -- Self Explaining
     TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
     BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
     
 })  
 
-BW:Button("Vape V4 (Works Well)",function()
+BG:Button("Bedwars Vape)",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
 
-DS:Label("Garfield Hub",{
-    TextSize = 25; -- Self Explaining
-    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
-    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
-    
-})  
-    
-DS:Button("Garfield Hub (OP)",function()
+BG:Button("Garfield Hub (OP)",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
 end)
     
