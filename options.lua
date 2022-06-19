@@ -12,7 +12,20 @@ local b = w:CreateFolder("Master's Diff Chart") -- Creates the folder(U will put
 
 local DS = w:CreateFolder("Doomspire") -- Creates the folder(U will put here your buttons,etc)
 
+local BW = w:CreateFolder("Bedwars") -- Creates the folder(U will put here your buttons,etc)
+
 local US = w:CreateFolder("Useful Tools")
+
+BW:Label("Bedwars VAPEv4",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+})  
+
+BW:Button("Vape V4 (Works Well)",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
 
 DS:Label("Garfield Hub",{
     TextSize = 25; -- Self Explaining
