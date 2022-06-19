@@ -10,7 +10,7 @@ local w = library:CreateWindow("Dqrk's Exploits") -- Creates the window
 
 local b = w:CreateFolder("Master's Diff Chart") -- Creates the folder(U will put here your buttons,etc)
 
-local DS = w:CreateFolder(Doomspire") -- Creates the folder(U will put here your buttons,etc)
+local DS = w:CreateFolder("Doomspire") -- Creates the folder(U will put here your buttons,etc)
 
 local US = w:CreateFolder("Useful Tools")
 
