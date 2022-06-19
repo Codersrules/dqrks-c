@@ -13,7 +13,7 @@ local b = w:CreateFolder("Master's Diff Chart") -- Creates the folder(U will put
 local BG = w:CreateFolder("Basic Games")
 
 local US = w:CreateFolder("Useful Tools")
-loadstring(game:HttpGet(‘https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub’))()
+
 local BG = w:CreateFolder("Basic Games")
 
 BG:Label("Very basic game scripts",{
@@ -27,7 +27,11 @@ BG:Button("Bedwars Vape)",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
 
-BG:Button("Garfield Hub (OP)",function()
+BG:Button("Arsenal",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"))()
+end)
+
+BG:Button("Doomspire Brickbattle",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
 end)
     
