@@ -10,8 +10,21 @@ local w = library:CreateWindow("Dqrk's Exploits") -- Creates the window
 
 local b = w:CreateFolder("Master's Diff Chart") -- Creates the folder(U will put here your buttons,etc)
 
+local DS = w:CreateFolder(Doomspire") -- Creates the folder(U will put here your buttons,etc)
+
 local US = w:CreateFolder("Useful Tools")
 
+DS:Label("Garfield Hub",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+})  
+    
+US:Button("Garfield Hub (OP)",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
+end)
+    
 US:Label("Hacking Scripts",{
     TextSize = 25; -- Self Explaining
     TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
