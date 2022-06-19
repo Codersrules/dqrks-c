@@ -21,7 +21,7 @@ DS:Label("Garfield Hub",{
     
 })  
     
-US:Button("Garfield Hub (OP)",function()
+DS:Button("Garfield Hub (OP)",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
 end)
     
