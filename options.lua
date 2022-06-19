@@ -14,8 +14,6 @@ local BG = w:CreateFolder("Basic Games")
 
 local US = w:CreateFolder("Useful Tools")
 
-local BG = w:CreateFolder("Basic Games")
-
 BG:Label("Very basic game scripts",{
     TextSize = 25; -- Self Explaining
     TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
@@ -23,7 +21,7 @@ BG:Label("Very basic game scripts",{
     
 })  
 
-BG:Button("Bedwars Vape)",function()
+BG:Button("Bedwars Vape V4)",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
 
