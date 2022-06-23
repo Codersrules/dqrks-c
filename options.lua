@@ -53,7 +53,7 @@ US:Button("HYDROXIDE RSPY (D)",function()
 end)
 
 US:Button("FROSTHOOK",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nootchtai/FrostHook_Spy/master/Spy.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Codersrules/dqrks-c/main/scripts/frosthookspy.lua"))()
 end)
 US:Button("Dark Dex V3",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
