@@ -22,7 +22,7 @@ BG:Label("Very basic game scripts",{
 })  
 
 BG:Button("Bedwars Vape V4",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Codersrules/dqrks-c/main/scripts/BedwarsVapeV4", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Codersrules/dqrks-c/main/scripts/BedwarsVapeV4.lua", true))()
 end)
 
 BG:Button("Arsenal",function()
@@ -30,7 +30,7 @@ BG:Button("Arsenal",function()
 end)
 
 BG:Button("Doomspire Brickbattle",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Codersrules/dqrks-c/main/scripts/garfieldhub.lua", true))()
 end)
     
 US:Label("Hacking Scripts",{
@@ -56,20 +56,20 @@ US:Button("FROSTHOOK",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Codersrules/dqrks-c/main/scripts/frosthookspy.lua"))()
 end)
 US:Button("Dark Dex V3",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Codersrules/dqrks-c/main/scripts/darkdexv3.lua", true))()
 end)
 
 
 US:Button("Dark Dex V4",function()
-     loadstring(game:HttpGet("https://gist.githubusercontent.com/DinosaurXxX/b757fe011e7e600c0873f967fe427dc2/raw/ee5324771f017073fc30e640323ac2a9b3bfc550/dark%2520dex%2520v4"))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Codersrules/dqrks-c/main/scripts/darkdexv4.lua"))()
 end)
 
 US:Button("SimpleSpy",function()
-    loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Codersrules/dqrks-c/main/scripts/SimpleSpy.lua"))()
 end)
 
 US:Button("OwlHub",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Codersrules/dqrks-c/main/scripts/OwlHub.lua"))();
 end)
 
 US:Toggle("Zoom out",function(bool)
