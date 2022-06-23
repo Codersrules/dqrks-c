@@ -22,7 +22,7 @@ BG:Label("Very basic game scripts",{
 })  
 
 BG:Button("Bedwars Vape V4",function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Codersrules/dqrks-c/main/scripts/BedwarsVapeV4", true))()
 end)
 
 BG:Button("Arsenal",function()
