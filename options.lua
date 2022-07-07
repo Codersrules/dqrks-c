@@ -63,6 +63,10 @@ US:Button("Dark Dex V3",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Codersrules/dqrks-c/main/scripts/darkdexv3.lua", true))()
 end)
 
+US:Button("InfiniteYield FE",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
 
 US:Button("Dark Dex V4",function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/Codersrules/dqrks-c/main/scripts/darkdexv4.lua"))()
